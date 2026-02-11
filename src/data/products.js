@@ -1,4 +1,4 @@
-const products = [
+export const products = [
     {
         id: 1,
         name: "MacBook Pro M3",
@@ -43,10 +43,6 @@ const products = [
     }
 ]
 
-function getProduct(id) {
-    return products.find((product) => {
-        product.id === id
-    })
+export function getProduct(id) {
+  return products.find((product) => product.id === id);
 }
-
-export {products, getProduct};

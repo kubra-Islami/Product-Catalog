@@ -1,8 +1,9 @@
 import Layout from "./layout/Layout.jsx";
 import {Route, Routes} from "react-router";
 import Home from "./pages/Home.jsx";
-import Products from "./pages/Products.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import ProductList from "./pages/ProductList.jsx";
+import ProductDetails from "./pages/ProductDetails.jsx";
 
 function App() {
 
@@ -10,8 +11,8 @@ function App() {
         <Routes>
             <Route element={<Layout/>}>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/products" element={<Products/>}/>
-                <Route path="/products/:id" element={<Products/>}/>
+                <Route index path="/products" element={<ProductList/>}/>
+                <Route path="/products/:id" element={<ProductDetails/>}/>
                 <Route path="*" element={<NotFound/>}/>
             </Route>
         </Routes>
