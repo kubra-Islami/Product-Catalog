@@ -1,9 +1,10 @@
 import Layout from "./layout/Layout.jsx";
 import {Route, Routes} from "react-router";
 import Home from "./pages/Home.jsx";
-import NotFound from "./pages/NotFound.jsx";
+import NotFound from "./pages/NotFound/NotFound.jsx";
 import ProductList from "./pages/ProductList.jsx";
 import ProductDetails from "./pages/ProductDetails.jsx";
+import "./App.css";
 
 function App() {
 

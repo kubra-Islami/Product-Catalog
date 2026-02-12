@@ -2,13 +2,13 @@ import { NavLink } from "react-router";
 
 function Navbar() {
     const linkClass = ({ isActive }) =>
-        "nav-link mx-2" + (isActive ? " fw-bold text-gray-600" : "");
+        "nav-link mx-2" + (isActive ? " fw-bold nav-title" : "");
 
     return (
         <nav className="navbar navbar-expand bg-light border-bottom">
             <div className="container">
                 <span className="navbar-brand fw-bold">
-                  Product<span className="text-primary">Catalog</span>
+                  Product<span className="nav-title">Catalog</span>
                 </span>
 
                 <div className="navbar-nav">

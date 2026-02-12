@@ -1,0 +1,29 @@
+.notfound-wrapper {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notfound-card {
+    background: white;
+    border-radius: 24px;
+    padding: 60px 50px;
+    text-align: center;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.08);
+    max-width: 500px;
+    width: 100%;
+}
+
+.notfound-code {
+    font-size: 6rem;
+    font-weight: 800;
+    color: var(--brand-dark);
+    line-height: 1;
+}
+
+.notfound-text {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 20px 0 30px;
+}
