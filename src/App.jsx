@@ -1,5 +1,5 @@
 import Layout from "./layout/Layout.jsx";
-import {Route, Routes} from "react-router";
+import {Route, Routes} from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import NotFound from "./pages/NotFound/NotFound.jsx";
 import ProductList from "./pages/ProductList.jsx";

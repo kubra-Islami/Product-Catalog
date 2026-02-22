@@ -1,5 +1,5 @@
 import { products } from "../data/products";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 function ProductList() {
     return (
